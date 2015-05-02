@@ -45,18 +45,6 @@ class ProjectViewController: UIViewController, UITableViewDataSource, UITableVie
         }
         if indexPath.row == 1{
             var cell = tableView.dequeueReusableCellWithIdentifier("secondCell") as! SecondTableViewCell
-            if id == "routinetask"{
-                cell.collectionView.hidden = true
-                var label = UILabel()
-                label.text = "No images available"
-                label.font = UIFont(name: "HelveticaNeue-Light", size: 18)
-                label.textColor = UIColor.lightGrayColor()
-                label.backgroundColor = UIColor.clearColor()
-                label.numberOfLines = 1
-                label.clipsToBounds = true
-                label.frame = CGRect(x: 16, y: 8, width: self.view.frame.width-8, height: 26)
-                cell.addSubview(label)
-            }
             return cell
         }
         var cell = tableView.dequeueReusableCellWithIdentifier("thirdCell") as! ThirdTableViewCell
@@ -72,9 +60,6 @@ class ProjectViewController: UIViewController, UITableViewDataSource, UITableVie
         case 0:
             return 117
         case 1:
-            if id == "routinetask"{
-                return 42
-            }
             if id == "sicce"{
                 return 150
             }
@@ -97,9 +82,7 @@ class ProjectViewController: UIViewController, UITableViewDataSource, UITableVie
     }
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath){
-        if id != "routinetask"{
         performSegueWithIdentifier("pageControllerSegue", sender: nil)
-        }
     }
     
     //Segue
@@ -133,6 +116,12 @@ class ProjectViewController: UIViewController, UITableViewDataSource, UITableVie
             return UIImage(named: "colabore3")!
         case "sicce":
             return UIImage(named: "sicce-1")!
+        case "routinetask":
+            if index == 0{
+                return UIImage(named: "routinetask1")!}
+            if index == 1{
+                return UIImage(named: "routinetask2")!}
+            return UIImage(named: "routinetask3")!
         default:
             if index == 0{
                 return UIImage(named: "roundtrip1")!}
@@ -149,7 +138,7 @@ class ProjectViewController: UIViewController, UITableViewDataSource, UITableVie
         case "sicce":
             return 1
         case "routinetask":
-            return 0
+            return 3
         default:
             return 3
         }
@@ -208,7 +197,7 @@ class ProjectViewController: UIViewController, UITableViewDataSource, UITableVie
         case "colabore":
             return "Beta Testing with TestFlight"
         case "routinetask":
-            return "Developing"
+            return "Available on the App Store"
         case "sicce":
             return "Developing"
         default:
