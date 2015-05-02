@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>dreams</key>
+	<dict>
+		<key>about</key>
+		<string>   I have a big dream and objective in my life:
+   Use my creativity and my abilities to make the difference in the world.
+
+   With this opportunity I will make friends, and we together will make the difference in the world!</string>
+	</dict>
+	<key>interests</key>
+	<dict>
+		<key>about</key>
+		<string>   3 things that I really love:
+   iOS Development, Design and Entrepreneurship
+   When I started the BEPiD the entrepreneurial side began to grow on me, and with iOS Development I found the perfect way to reconcile the design and mobile development.</string>
+	</dict>
+	<key>projects</key>
+	<dict>
+		<key>routinetask</key>
+		<string>With this app you can add tasks for every weeks so easily, and can see it, deactivate it and delete it.
+
+You will be notified about the task every week.
+
+This App was developed entirely in Swift and will be soon on the App Store.</string>
+		<key>colabore</key>
+		<string>Did you found any problem in your city? Report it in Colaborê!
+
+Show to the population and local governments about the problems in the city, such as holes in the street, waste and more.
+
+It&apos;s easy and fast.
+
+The app will be soon on the App Store.</string>
+		<key>roundtrip</key>
+		<string>Trips are all about sharing. You share cultures, lifestyles, and experiences. 
+
+With RoundTrip you can plan your trip easily and quickly.
+
+RoundTrip, helping you plan, do, and share your unique experiences.
+
+The app will be soon on the App Store.</string>
+		<key>sicce</key>
+		<string>   This is a project developed in High School for final course assignment about IoT (Internet of Things).
+
+   SICCE (Sistema Inteligente de Controle de Consumo Elétrico) was developed aiming to digitize the whole process measurement and control of electric power, providing real-time data, such as consumption and billing, and still to be detailed the consumption per rooms. 
+
+   All data are presented on the internet or an App for iOS, facilitating the reading for anyone, without necessarily have advanced knowledge about electricity.
+
+   All of these benefits also come accompanied with the benefit of the low cost of the equipment used to automate the process. 
+
+   The hardware was done and working, used Arduino and sensors, just developing the App.</string>
+	</dict>
+	<key>experiences</key>
+	<dict>
+		<key>about</key>
+		<string>
+   I am fluent in Swift, Objective-C, Java, JavaScript and SQL.
+
+   Work Experiences:
+   Rotation Intern @SAP Labs Latin America
+I am working at SAP Labs Latin America, in Co-Innovation Lab, since March 2015.
+
+   IT Analyst @Cooling &amp; Freezing
+Dec 2012 - Dec 2014
+
+   Fairs:
+   SICCE @MEP
+In 2013, My team and I presented the project SICCE (Sistema Inteligente de Controle de Consumo Eletrico) at the MEP (Mostra das Escolas de Educação Profissional).
+
+   Augmented Reality @FEICCOM
+In 2009, with just 14 years, I went to FEICCOM (Feira de Idéias do Colégio Coração de Maria) to explain how augmented reality works and show some examples.</string>
+	</dict>
+	<key>background</key>
+	<dict>
+		<key>about</key>
+		<string>   Student @ BEPiD - Porto Alegre
+I am student at Brazilian Education Program for iOS Development in PUCRS - Porto Alegre, Brazil.
+
+   Ungraduate Student @ Information Systems - Unisinos
+I am ungraduate student in Information Systems, I will be graduated in 2019, at Universidade Vale do Rio dos Sinos - São Leopoldo, Brazil.
+
+   Eletrical Technician @ ETE Frederico Guilherme Schmidt
+I am Eletrical technician, graduated in 2014, at Escola Ténica Estadual Frederico Guilherme Schmidt - São Leopoldo, Brazil.</string>
+	</dict>
+	<key>me</key>
+	<dict>
+		<key>facebook</key>
+		<string>https://www.facebook.com/diegdsantos</string>
+		<key>introduction</key>
+		<string>Hi, I&apos;m Diego</string>
+		<key>about</key>
+		<string>   I am Diego dos Santos, 19 years old, undergraduate student in Information Systems, borned in Porto Alegre, Brazil.
+   I love to design user interfaces, to think how to improve and make it intuitive.
+   I believe that dreams move the world, and then no matter what I do, I always think about how it can help someone to achieve his dream.
+
+   Keep in touch:
+ santos.diegod@icloud.com</string>
+		<key>desc</key>
+		<string>iOS Developer and Design Lover</string>
+		<key>git</key>
+		<string>https://github.com/diegodossantos95</string>
+		<key>name</key>
+		<string>Diego dos Santos</string>
+		<key>email</key>
+		<string>santos.diegod@gmail.com</string>
+		<key>linkedin</key>
+		<string>https://linkedin.com/in/diegodsantos</string>
+	</dict>
+</dict>
+</plist>
